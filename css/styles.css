@@ -142,7 +142,7 @@ body {
         position: absolute;
         content: "";
         left: 0px;
-        top: 46px;
+        bottom: 0px;
     
         width: 100%;
         height: 4px;
@@ -211,6 +211,11 @@ body {
 
 .studio-nav {
     color: var(--studio-nav-color);
+}
+
+.item a {
+    padding-top: 34px;
+    padding-bottom: 30px;
 }
 
 /* hero */
@@ -312,6 +317,9 @@ body {
 
     .modal-button {
         position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         padding: 0;
         top: 8px;
         right: 8px;
@@ -669,7 +677,8 @@ background: var(--background-color);
     font-size: 16px;
     line-height: 1.9;
 
-    text-decoration: none;
+    color: var(--text-main-color);
+
 }
 
 .product-thumb {
@@ -780,6 +789,7 @@ padding: 0;
 
 .social-title {
     margin-bottom: 20px;    
+    margin-top: 16px;
 
         font-weight: 700;
         font-size: 14px;
